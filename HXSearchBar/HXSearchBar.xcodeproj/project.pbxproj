@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8D769C20452B41004223DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D769B20452B41004223DA /* AppDelegate.m */; };
+		9F8D769F20452B41004223DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D769E20452B41004223DA /* ViewController.m */; };
+		9F8D76A220452B41004223DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D76A020452B41004223DA /* Main.storyboard */; };
+		9F8D76A420452B41004223DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D76A320452B41004223DA /* Assets.xcassets */; };
+		9F8D76A720452B41004223DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8D76A520452B41004223DA /* LaunchScreen.storyboard */; };
+		9F8D76AA20452B41004223DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76A920452B41004223DA /* main.m */; };
+		9F8D76B420452B41004223DA /* HXSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76B320452B41004223DA /* HXSearchBarTests.m */; };
+		9F8D76BF20452B42004223DA /* HXSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76BE20452B42004223DA /* HXSearchBarUITests.m */; };
+		9F8D76CE20452D39004223DA /* HXSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76CD20452D39004223DA /* HXSearchBar.m */; };
+		9F8D76E720453440004223DA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76D120453440004223DA /* MASCompositeConstraint.m */; };
+		9F8D76E820453440004223DA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76D420453440004223DA /* MASConstraint.m */; };
+		9F8D76E920453440004223DA /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76D620453440004223DA /* MASConstraintMaker.m */; };
+		9F8D76EA20453440004223DA /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76D820453440004223DA /* MASLayoutConstraint.m */; };
+		9F8D76EB20453440004223DA /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76DC20453440004223DA /* MASViewAttribute.m */; };
+		9F8D76EC20453440004223DA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76DE20453440004223DA /* MASViewConstraint.m */; };
+		9F8D76ED20453440004223DA /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76E020453440004223DA /* NSArray+MASAdditions.m */; };
+		9F8D76EE20453440004223DA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76E320453440004223DA /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9F8D76EF20453440004223DA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76E520453440004223DA /* View+MASAdditions.m */; };
+		9F8D76F22045377B004223DA /* ColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76F12045377B004223DA /* ColorTool.m */; };
+		9F8D76F5204537B2004223DA /* WordTypeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D76F4204537B2004223DA /* WordTypeTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8D76B020452B41004223DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8D768F20452B41004223DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8D769620452B41004223DA;
+			remoteInfo = HXSearchBar;
+		};
+		9F8D76BB20452B42004223DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8D768F20452B41004223DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8D769620452B41004223DA;
+			remoteInfo = HXSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8D769720452B41004223DA /* HXSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8D769A20452B41004223DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8D769B20452B41004223DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8D769D20452B41004223DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8D769E20452B41004223DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F8D76A120452B41004223DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8D76A320452B41004223DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8D76A620452B41004223DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F8D76A820452B41004223DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8D76A920452B41004223DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8D76AF20452B41004223DA /* HXSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8D76B320452B41004223DA /* HXSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSearchBarTests.m; sourceTree = "<group>"; };
+		9F8D76B520452B41004223DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8D76BA20452B42004223DA /* HXSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8D76BE20452B42004223DA /* HXSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSearchBarUITests.m; sourceTree = "<group>"; };
+		9F8D76C020452B42004223DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8D76CC20452D39004223DA /* HXSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXSearchBar.h; sourceTree = "<group>"; };
+		9F8D76CD20452D39004223DA /* HXSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXSearchBar.m; sourceTree = "<group>"; };
+		9F8D76D020453440004223DA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9F8D76D120453440004223DA /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		9F8D76D220453440004223DA /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9F8D76D320453440004223DA /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		9F8D76D420453440004223DA /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		9F8D76D520453440004223DA /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		9F8D76D620453440004223DA /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		9F8D76D720453440004223DA /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		9F8D76D820453440004223DA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		9F8D76D920453440004223DA /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		9F8D76DA20453440004223DA /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		9F8D76DB20453440004223DA /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		9F8D76DC20453440004223DA /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		9F8D76DD20453440004223DA /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		9F8D76DE20453440004223DA /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		9F8D76DF20453440004223DA /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9F8D76E020453440004223DA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9F8D76E120453440004223DA /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9F8D76E220453440004223DA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9F8D76E320453440004223DA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9F8D76E420453440004223DA /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		9F8D76E520453440004223DA /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		9F8D76E620453440004223DA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9F8D76F02045377B004223DA /* ColorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTool.h; sourceTree = "<group>"; };
+		9F8D76F12045377B004223DA /* ColorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTool.m; sourceTree = "<group>"; };
+		9F8D76F3204537B2004223DA /* WordTypeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordTypeTool.h; sourceTree = "<group>"; };
+		9F8D76F4204537B2004223DA /* WordTypeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordTypeTool.m; sourceTree = "<group>"; };
+		9F8D76F62045381C004223DA /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8D769420452B41004223DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8D76AC20452B41004223DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8D76B720452B42004223DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8D768E20452B41004223DA = {
+			isa = PBXGroup;
+			children = (
+				9F8D769920452B41004223DA /* HXSearchBar */,
+				9F8D76B220452B41004223DA /* HXSearchBarTests */,
+				9F8D76BD20452B42004223DA /* HXSearchBarUITests */,
+				9F8D769820452B41004223DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8D769820452B41004223DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D769720452B41004223DA /* HXSearchBar.app */,
+				9F8D76AF20452B41004223DA /* HXSearchBarTests.xctest */,
+				9F8D76BA20452B42004223DA /* HXSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8D769920452B41004223DA /* HXSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D769A20452B41004223DA /* AppDelegate.h */,
+				9F8D769B20452B41004223DA /* AppDelegate.m */,
+				9F8D769D20452B41004223DA /* ViewController.h */,
+				9F8D769E20452B41004223DA /* ViewController.m */,
+				9F8D76A020452B41004223DA /* Main.storyboard */,
+				9F8D76A320452B41004223DA /* Assets.xcassets */,
+				9F8D76A520452B41004223DA /* LaunchScreen.storyboard */,
+				9F8D76A820452B41004223DA /* Info.plist */,
+				9F8D76A920452B41004223DA /* main.m */,
+				9F8D76CC20452D39004223DA /* HXSearchBar.h */,
+				9F8D76CD20452D39004223DA /* HXSearchBar.m */,
+				9F8D76F02045377B004223DA /* ColorTool.h */,
+				9F8D76F12045377B004223DA /* ColorTool.m */,
+				9F8D76F3204537B2004223DA /* WordTypeTool.h */,
+				9F8D76F4204537B2004223DA /* WordTypeTool.m */,
+				9F8D76F62045381C004223DA /* Singleton.h */,
+				9F8D76CF20453440004223DA /* Masonry */,
+			);
+			path = HXSearchBar;
+			sourceTree = "<group>";
+		};
+		9F8D76B220452B41004223DA /* HXSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D76B320452B41004223DA /* HXSearchBarTests.m */,
+				9F8D76B520452B41004223DA /* Info.plist */,
+			);
+			path = HXSearchBarTests;
+			sourceTree = "<group>";
+		};
+		9F8D76BD20452B42004223DA /* HXSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D76BE20452B42004223DA /* HXSearchBarUITests.m */,
+				9F8D76C020452B42004223DA /* Info.plist */,
+			);
+			path = HXSearchBarUITests;
+			sourceTree = "<group>";
+		};
+		9F8D76CF20453440004223DA /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9F8D76D020453440004223DA /* MASCompositeConstraint.h */,
+				9F8D76D120453440004223DA /* MASCompositeConstraint.m */,
+				9F8D76D220453440004223DA /* MASConstraint+Private.h */,
+				9F8D76D320453440004223DA /* MASConstraint.h */,
+				9F8D76D420453440004223DA /* MASConstraint.m */,
+				9F8D76D520453440004223DA /* MASConstraintMaker.h */,
+				9F8D76D620453440004223DA /* MASConstraintMaker.m */,
+				9F8D76D720453440004223DA /* MASLayoutConstraint.h */,
+				9F8D76D820453440004223DA /* MASLayoutConstraint.m */,
+				9F8D76D920453440004223DA /* Masonry.h */,
+				9F8D76DA20453440004223DA /* MASUtilities.h */,
+				9F8D76DB20453440004223DA /* MASViewAttribute.h */,
+				9F8D76DC20453440004223DA /* MASViewAttribute.m */,
+				9F8D76DD20453440004223DA /* MASViewConstraint.h */,
+				9F8D76DE20453440004223DA /* MASViewConstraint.m */,
+				9F8D76DF20453440004223DA /* NSArray+MASAdditions.h */,
+				9F8D76E020453440004223DA /* NSArray+MASAdditions.m */,
+				9F8D76E120453440004223DA /* NSArray+MASShorthandAdditions.h */,
+				9F8D76E220453440004223DA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9F8D76E320453440004223DA /* NSLayoutConstraint+MASDebugAdditions.m */,
+				9F8D76E420453440004223DA /* View+MASAdditions.h */,
+				9F8D76E520453440004223DA /* View+MASAdditions.m */,
+				9F8D76E620453440004223DA /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8D769620452B41004223DA /* HXSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8D76C320452B42004223DA /* Build configuration list for PBXNativeTarget "HXSearchBar" */;
+			buildPhases = (
+				9F8D769320452B41004223DA /* Sources */,
+				9F8D769420452B41004223DA /* Frameworks */,
+				9F8D769520452B41004223DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXSearchBar;
+			productName = HXSearchBar;
+			productReference = 9F8D769720452B41004223DA /* HXSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8D76AE20452B41004223DA /* HXSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8D76C620452B42004223DA /* Build configuration list for PBXNativeTarget "HXSearchBarTests" */;
+			buildPhases = (
+				9F8D76AB20452B41004223DA /* Sources */,
+				9F8D76AC20452B41004223DA /* Frameworks */,
+				9F8D76AD20452B41004223DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8D76B120452B41004223DA /* PBXTargetDependency */,
+			);
+			name = HXSearchBarTests;
+			productName = HXSearchBarTests;
+			productReference = 9F8D76AF20452B41004223DA /* HXSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F8D76B920452B42004223DA /* HXSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8D76C920452B42004223DA /* Build configuration list for PBXNativeTarget "HXSearchBarUITests" */;
+			buildPhases = (
+				9F8D76B620452B42004223DA /* Sources */,
+				9F8D76B720452B42004223DA /* Frameworks */,
+				9F8D76B820452B42004223DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8D76BC20452B42004223DA /* PBXTargetDependency */,
+			);
+			name = HXSearchBarUITests;
+			productName = HXSearchBarUITests;
+			productReference = 9F8D76BA20452B42004223DA /* HXSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8D768F20452B41004223DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LinYun;
+				TargetAttributes = {
+					9F8D769620452B41004223DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F8D76AE20452B41004223DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F8D769620452B41004223DA;
+					};
+					9F8D76B920452B42004223DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F8D769620452B41004223DA;
+					};
+				};
+			};
+			buildConfigurationList = 9F8D769220452B41004223DA /* Build configuration list for PBXProject "HXSearchBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8D768E20452B41004223DA;
+			productRefGroup = 9F8D769820452B41004223DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8D769620452B41004223DA /* HXSearchBar */,
+				9F8D76AE20452B41004223DA /* HXSearchBarTests */,
+				9F8D76B920452B42004223DA /* HXSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8D769520452B41004223DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8D76A720452B41004223DA /* LaunchScreen.storyboard in Resources */,
+				9F8D76A420452B41004223DA /* Assets.xcassets in Resources */,
+				9F8D76A220452B41004223DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8D76AD20452B41004223DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8D76B820452B42004223DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8D769320452B41004223DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8D76E920453440004223DA /* MASConstraintMaker.m in Sources */,
+				9F8D76F5204537B2004223DA /* WordTypeTool.m in Sources */,
+				9F8D769F20452B41004223DA /* ViewController.m in Sources */,
+				9F8D76AA20452B41004223DA /* main.m in Sources */,
+				9F8D76E820453440004223DA /* MASConstraint.m in Sources */,
+				9F8D76EA20453440004223DA /* MASLayoutConstraint.m in Sources */,
+				9F8D76ED20453440004223DA /* NSArray+MASAdditions.m in Sources */,
+				9F8D76EC20453440004223DA /* MASViewConstraint.m in Sources */,
+				9F8D76EB20453440004223DA /* MASViewAttribute.m in Sources */,
+				9F8D76EF20453440004223DA /* View+MASAdditions.m in Sources */,
+				9F8D76F22045377B004223DA /* ColorTool.m in Sources */,
+				9F8D769C20452B41004223DA /* AppDelegate.m in Sources */,
+				9F8D76CE20452D39004223DA /* HXSearchBar.m in Sources */,
+				9F8D76E720453440004223DA /* MASCompositeConstraint.m in Sources */,
+				9F8D76EE20453440004223DA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8D76AB20452B41004223DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8D76B420452B41004223DA /* HXSearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8D76B620452B42004223DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8D76BF20452B42004223DA /* HXSearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8D76B120452B41004223DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8D769620452B41004223DA /* HXSearchBar */;
+			targetProxy = 9F8D76B020452B41004223DA /* PBXContainerItemProxy */;
+		};
+		9F8D76BC20452B42004223DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8D769620452B41004223DA /* HXSearchBar */;
+			targetProxy = 9F8D76BB20452B42004223DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8D76A020452B41004223DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8D76A120452B41004223DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8D76A520452B41004223DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8D76A620452B41004223DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8D76C120452B42004223DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8D76C220452B42004223DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8D76C420452B42004223DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH36P5C3B3;
+				INFOPLIST_FILE = HXSearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinYun.HXSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F8D76C520452B42004223DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH36P5C3B3;
+				INFOPLIST_FILE = HXSearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinYun.HXSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F8D76C720452B42004223DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3383KGTTH;
+				INFOPLIST_FILE = HXSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinYun.HXSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXSearchBar.app/HXSearchBar";
+			};
+			name = Debug;
+		};
+		9F8D76C820452B42004223DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3383KGTTH;
+				INFOPLIST_FILE = HXSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinYun.HXSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXSearchBar.app/HXSearchBar";
+			};
+			name = Release;
+		};
+		9F8D76CA20452B42004223DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3383KGTTH;
+				INFOPLIST_FILE = HXSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinYun.HXSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HXSearchBar;
+			};
+			name = Debug;
+		};
+		9F8D76CB20452B42004223DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3383KGTTH;
+				INFOPLIST_FILE = HXSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinYun.HXSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HXSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8D769220452B41004223DA /* Build configuration list for PBXProject "HXSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8D76C120452B42004223DA /* Debug */,
+				9F8D76C220452B42004223DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8D76C320452B42004223DA /* Build configuration list for PBXNativeTarget "HXSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8D76C420452B42004223DA /* Debug */,
+				9F8D76C520452B42004223DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8D76C620452B42004223DA /* Build configuration list for PBXNativeTarget "HXSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8D76C720452B42004223DA /* Debug */,
+				9F8D76C820452B42004223DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8D76C920452B42004223DA /* Build configuration list for PBXNativeTarget "HXSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8D76CA20452B42004223DA /* Debug */,
+				9F8D76CB20452B42004223DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8D768F20452B41004223DA /* Project object */;
+}
